@@ -7900,3 +7900,240 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.02.20-16.20.40:779][616]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
 [2024.02.20-16.20.42:303][796]LogEditorViewport: Clicking Background
 [2024.02.20-16.20.44:702][ 81]LogEditorViewport: Clicking Background
+[2024.02.20-16.23.13:515][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/runner" FILE="../../../../../../Users/1/Documents/GitHub/ballrunner/Runner/Content/runner.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.20-16.23.13:530][293]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.02.20-16.23.13:553][293]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/ballrunner/Runner/Saved/runner8E153AFC45096445822139A48C44E5B6.tmp' to '../../../../../../Users/1/Documents/GitHub/ballrunner/Runner/Content/runner.umap'
+[2024.02.20-16.23.13:560][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/runner_BuiltData" FILE="../../../../../../Users/1/Documents/GitHub/ballrunner/Runner/Content/runner_BuiltData.uasset" SILENT=true
+[2024.02.20-16.23.13:570][293]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/ballrunner/Runner/Saved/runner_BuiltDataD52B331745190829C2C266B4965994BB.tmp' to '../../../../../../Users/1/Documents/GitHub/ballrunner/Runner/Content/runner_BuiltData.uasset'
+[2024.02.20-16.23.13:581][293]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.20-16.23.13:581][293]LogContentValidation: Display: Validating World /Game/runner.runner
+[2024.02.20-16.23.13:581][293]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/runner_BuiltData.runner_BuiltData
+[2024.02.20-16.23.35:239][882]LogTemp: Repeating last play command: Selected Viewport
+[2024.02.20-16.23.35:245][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-16.23.35:245][882]PIE: New page: PIE session: runner (20 lut 2024, 18:23:35)
+[2024.02.20-16.23.35:272][882]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_runner
+[2024.02.20-16.23.35:277][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004831s)
+[2024.02.20-16.23.35:278][882]LogAIModule: Creating AISystem for world runner
+[2024.02.20-16.23.35:278][882]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2024.02.20-16.23.35:278][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/runner.runner to /Game/UEDPIE_0_runner.runner (0.005927s)
+[2024.02.20-16.23.35:294][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2024.02.20-16.23.35:297][882]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2024.02.20-16.23.35:297][882]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-16.23.35:297][882]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-16.23.35:297][882]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-16.23.35:297][882]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-16.23.35:297][882]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.02.20-16.23.35:297][882]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-16.23.35:297][882]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.02.20-16.23.35:297][882]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-16.23.35:298][882]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-16.23.35:298][882]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-16.23.35:298][882]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-16.23.35:298][882]LogAudioMixer: Display: Initializing audio mixer.
+[2024.02.20-16.23.35:302][882]LogAudioMixer: Display: 0: FrontLeft
+[2024.02.20-16.23.35:302][882]LogAudioMixer: Display: 1: FrontRight
+[2024.02.20-16.23.35:316][882]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2024.02.20-16.23.35:316][882]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-16.23.35:316][882]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-16.23.35:316][882]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-16.23.35:317][882]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.02.20-16.23.35:317][882]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.02.20-16.23.35:317][882]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.02.20-16.23.35:318][882]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.02.20-16.23.35:318][882]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.02.20-16.23.35:318][882]LogInit: FAudioDevice initialized.
+[2024.02.20-16.23.35:318][882]LogAudio: Display: Audio Device (ID: 71) registered with world 'runner'.
+[2024.02.20-16.23.35:326][882]LogLoad: Game class is 'BP_GAMEMODE_C'
+[2024.02.20-16.23.35:327][882]LogWorld: Bringing World /Game/UEDPIE_0_runner.runner up for play (max tick rate 0) at 2024.02.20-17.23.35
+[2024.02.20-16.23.35:328][882]LogWorld: Bringing up level for play took: 0.000892
+[2024.02.20-16.23.35:328][882]LogOnline: OSS: Creating online subsystem instance for: :Context_97
+[2024.02.20-16.23.35:330][882]PIE: Server logged in
+[2024.02.20-16.23.35:331][882]PIE: Play in editor total start time 0,087 seconds.
+[2024.02.20-16.23.43:889][907]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.23.43:898][908]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.23.43:906][909]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.23.43:915][910]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.23.43:923][911]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.23.43:931][912]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.23.43:940][913]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.24.00:639][917]LogNet: Browse: /Game/runner
+[2024.02.20-16.24.00:640][917]LogLoad: LoadMap: /Game/runner
+[2024.02.20-16.24.00:640][917]LogWorld: BeginTearingDown for /Game/UEDPIE_0_runner
+[2024.02.20-16.24.00:640][917]LogWorld: UWorld::CleanupWorld for runner, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-16.24.00:640][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-16.24.00:675][917]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.20-16.24.00:679][917]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2024.02.20-16.24.00:683][917]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_runner
+[2024.02.20-16.24.00:687][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004675s)
+[2024.02.20-16.24.00:688][917]LogAIModule: Creating AISystem for world runner
+[2024.02.20-16.24.00:688][917]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2024.02.20-16.24.00:688][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/runner.runner to /Game/UEDPIE_0_runner.runner (0.005706s)
+[2024.02.20-16.24.00:688][917]LogAudio: Display: Audio Device (ID: 71) registered with world 'runner'.
+[2024.02.20-16.24.00:688][917]LogLoad: Game class is 'BP_GAMEMODE_C'
+[2024.02.20-16.24.00:689][917]LogWorld: Bringing World /Game/UEDPIE_0_runner.runner up for play (max tick rate 0) at 2024.02.20-17.24.00
+[2024.02.20-16.24.00:690][917]LogWorld: Bringing up level for play took: 0.000637
+[2024.02.20-16.24.00:691][917]LogLoad: Took 0.051197 seconds to LoadMap(/Game/UEDPIE_0_runner)
+[2024.02.20-16.24.02:773][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-16.24.02:773][161]LogWorld: BeginTearingDown for /Game/UEDPIE_0_runner
+[2024.02.20-16.24.02:774][161]LogWorld: UWorld::CleanupWorld for runner, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-16.24.02:774][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-16.24.02:781][161]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-16.24.02:785][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-16.24.02:799][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-16.24.02:799][161]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.02.20-16.24.02:800][161]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.02.20-16.24.02:806][161]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2024.02.20-16.24.02:847][163]LogPlayLevel: Display: Destroying online subsystem :Context_97
+[2024.02.20-16.24.03:963][290]LogTemp: Repeating last play command: Selected Viewport
+[2024.02.20-16.24.03:969][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-16.24.03:969][290]PIE: New page: PIE session: runner (20 lut 2024, 18:24:03)
+[2024.02.20-16.24.04:002][290]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_runner
+[2024.02.20-16.24.04:007][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004736s)
+[2024.02.20-16.24.04:007][290]LogAIModule: Creating AISystem for world runner
+[2024.02.20-16.24.04:007][290]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2024.02.20-16.24.04:008][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/runner.runner to /Game/UEDPIE_0_runner.runner (0.005779s)
+[2024.02.20-16.24.04:023][290]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2024.02.20-16.24.04:024][290]LogAudio: Display: Creating Audio Device:                 Id: 72, Scope: Unique, Realtime: True
+[2024.02.20-16.24.04:024][290]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-16.24.04:024][290]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-16.24.04:024][290]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-16.24.04:024][290]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-16.24.04:024][290]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.02.20-16.24.04:024][290]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-16.24.04:024][290]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.02.20-16.24.04:024][290]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-16.24.04:024][290]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-16.24.04:024][290]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-16.24.04:024][290]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-16.24.04:024][290]LogAudioMixer: Display: Initializing audio mixer.
+[2024.02.20-16.24.04:029][290]LogAudioMixer: Display: 0: FrontLeft
+[2024.02.20-16.24.04:029][290]LogAudioMixer: Display: 1: FrontRight
+[2024.02.20-16.24.04:041][290]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2024.02.20-16.24.04:042][290]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-16.24.04:042][290]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-16.24.04:042][290]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-16.24.04:042][290]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.02.20-16.24.04:042][290]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.02.20-16.24.04:042][290]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.02.20-16.24.04:044][290]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.02.20-16.24.04:044][290]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.02.20-16.24.04:044][290]LogInit: FAudioDevice initialized.
+[2024.02.20-16.24.04:044][290]LogAudio: Display: Audio Device (ID: 72) registered with world 'runner'.
+[2024.02.20-16.24.04:048][290]LogLoad: Game class is 'BP_GAMEMODE_C'
+[2024.02.20-16.24.04:049][290]LogWorld: Bringing World /Game/UEDPIE_0_runner.runner up for play (max tick rate 0) at 2024.02.20-17.24.04
+[2024.02.20-16.24.04:049][290]LogWorld: Bringing up level for play took: 0.000853
+[2024.02.20-16.24.04:049][290]LogOnline: OSS: Creating online subsystem instance for: :Context_98
+[2024.02.20-16.24.04:051][290]PIE: Server logged in
+[2024.02.20-16.24.04:053][290]PIE: Play in editor total start time 0,085 seconds.
+[2024.02.20-16.24.06:634][599]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.24.06:643][600]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.24.06:650][601]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.24.06:659][602]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.24.06:667][603]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.24.06:676][604]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.24.06:685][605]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.24.16:403][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-16.24.16:403][765]LogWorld: BeginTearingDown for /Game/UEDPIE_0_runner
+[2024.02.20-16.24.16:403][765]LogWorld: UWorld::CleanupWorld for runner, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-16.24.16:403][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-16.24.16:409][765]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-16.24.16:414][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-16.24.16:426][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-16.24.16:427][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.02.20-16.24.16:428][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.02.20-16.24.16:433][765]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.02.20-16.24.16:478][767]LogPlayLevel: Display: Destroying online subsystem :Context_98
+[2024.02.20-16.24.22:781][371]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/armata/dzialo.dzialo
+[2024.02.20-16.24.31:096][281]BlueprintLog: New page: Compile dzialo
+[2024.02.20-16.24.31:132][281]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2024.02.20-16.24.31:680][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/armata/dzialo" FILE="../../../../../../Users/1/Documents/GitHub/ballrunner/Runner/Content/Blueprints/armata/dzialo.uasset" SILENT=true
+[2024.02.20-16.24.31:691][335]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/ballrunner/Runner/Saved/dzialoEEA5430B4156C45950BE3EB149674143.tmp' to '../../../../../../Users/1/Documents/GitHub/ballrunner/Runner/Content/Blueprints/armata/dzialo.uasset'
+[2024.02.20-16.24.31:702][335]AssetCheck: New page: Asset Save: dzialo
+[2024.02.20-16.24.31:702][335]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/armata/dzialo.dzialo
+[2024.02.20-16.24.32:664][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/armata/dzialo" FILE="../../../../../../Users/1/Documents/GitHub/ballrunner/Runner/Content/Blueprints/armata/dzialo.uasset" SILENT=true
+[2024.02.20-16.24.32:674][422]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/ballrunner/Runner/Saved/dzialo0794FC3C45E666A9F82D738B9EDB479E.tmp' to '../../../../../../Users/1/Documents/GitHub/ballrunner/Runner/Content/Blueprints/armata/dzialo.uasset'
+[2024.02.20-16.24.32:683][422]AssetCheck: New page: Asset Save: dzialo
+[2024.02.20-16.24.32:683][422]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/armata/dzialo.dzialo
+[2024.02.20-16.24.33:479][517]BlueprintLog: New page: Compile dzialo
+[2024.02.20-16.24.33:517][517]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2024.02.20-16.24.34:387][606]LogTemp: Repeating last play command: Selected Viewport
+[2024.02.20-16.24.34:393][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-16.24.34:394][606]PIE: New page: PIE session: runner (20 lut 2024, 18:24:34)
+[2024.02.20-16.24.34:394][606]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_runner
+[2024.02.20-16.24.34:398][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004667s)
+[2024.02.20-16.24.34:399][606]LogAIModule: Creating AISystem for world runner
+[2024.02.20-16.24.34:399][606]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2024.02.20-16.24.34:399][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/runner.runner to /Game/UEDPIE_0_runner.runner (0.005682s)
+[2024.02.20-16.24.34:420][606]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2024.02.20-16.24.34:420][606]LogAudio: Display: Creating Audio Device:                 Id: 73, Scope: Unique, Realtime: True
+[2024.02.20-16.24.34:420][606]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-16.24.34:420][606]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-16.24.34:420][606]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-16.24.34:420][606]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-16.24.34:420][606]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.02.20-16.24.34:420][606]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-16.24.34:420][606]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.02.20-16.24.34:420][606]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-16.24.34:420][606]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-16.24.34:420][606]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-16.24.34:420][606]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-16.24.34:420][606]LogAudioMixer: Display: Initializing audio mixer.
+[2024.02.20-16.24.34:425][606]LogAudioMixer: Display: 0: FrontLeft
+[2024.02.20-16.24.34:425][606]LogAudioMixer: Display: 1: FrontRight
+[2024.02.20-16.24.34:438][606]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2024.02.20-16.24.34:438][606]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-16.24.34:438][606]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-16.24.34:438][606]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-16.24.34:438][606]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.02.20-16.24.34:439][606]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.02.20-16.24.34:439][606]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.02.20-16.24.34:440][606]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.02.20-16.24.34:440][606]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.02.20-16.24.34:440][606]LogInit: FAudioDevice initialized.
+[2024.02.20-16.24.34:440][606]LogAudio: Display: Audio Device (ID: 73) registered with world 'runner'.
+[2024.02.20-16.24.34:480][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-16.24.34:480][606]LogLoad: Game class is 'BP_GAMEMODE_C'
+[2024.02.20-16.24.34:482][606]LogWorld: Bringing World /Game/UEDPIE_0_runner.runner up for play (max tick rate 0) at 2024.02.20-17.24.34
+[2024.02.20-16.24.34:482][606]LogWorld: Bringing up level for play took: 0.001149
+[2024.02.20-16.24.34:482][606]LogOnline: OSS: Creating online subsystem instance for: :Context_100
+[2024.02.20-16.24.34:486][606]PIE: Server logged in
+[2024.02.20-16.24.34:487][606]PIE: Play in editor total start time 0,095 seconds.
+[2024.02.20-16.24.39:975][171]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.24.39:984][172]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.24.39:994][173]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.24.40:002][174]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.24.40:012][175]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.24.40:021][176]LogBlueprintUserMessages: [BP_CONE_6] 
+[2024.02.20-16.24.48:858][163]LogNet: Browse: /Game/runner
+[2024.02.20-16.24.48:858][163]LogLoad: LoadMap: /Game/runner
+[2024.02.20-16.24.48:858][163]LogWorld: BeginTearingDown for /Game/UEDPIE_0_runner
+[2024.02.20-16.24.48:858][163]LogWorld: UWorld::CleanupWorld for runner, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-16.24.48:858][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-16.24.48:900][163]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.20-16.24.48:903][163]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2024.02.20-16.24.48:905][163]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_runner
+[2024.02.20-16.24.48:910][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004649s)
+[2024.02.20-16.24.48:910][163]LogAIModule: Creating AISystem for world runner
+[2024.02.20-16.24.48:911][163]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2024.02.20-16.24.48:911][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/runner.runner to /Game/UEDPIE_0_runner.runner (0.005655s)
+[2024.02.20-16.24.48:911][163]LogAudio: Display: Audio Device (ID: 73) registered with world 'runner'.
+[2024.02.20-16.24.48:911][163]LogLoad: Game class is 'BP_GAMEMODE_C'
+[2024.02.20-16.24.48:912][163]LogWorld: Bringing World /Game/UEDPIE_0_runner.runner up for play (max tick rate 0) at 2024.02.20-17.24.48
+[2024.02.20-16.24.48:912][163]LogWorld: Bringing up level for play took: 0.000640
+[2024.02.20-16.24.48:913][163]LogLoad: Took 0.054912 seconds to LoadMap(/Game/UEDPIE_0_runner)
+[2024.02.20-16.24.57:224][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-16.24.57:224][ 25]LogWorld: BeginTearingDown for /Game/UEDPIE_0_runner
+[2024.02.20-16.24.57:224][ 25]LogSlate: Window 'Runner Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2024.02.20-16.24.57:229][ 25]LogWorld: UWorld::CleanupWorld for runner, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-16.24.57:229][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-16.24.57:238][ 25]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-16.24.57:243][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-16.24.57:261][ 25]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.20-16.24.57:261][ 25]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.02.20-16.24.57:262][ 25]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.02.20-16.24.57:268][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2024.02.20-16.24.57:307][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2024.02.20-16.24.59:669][309]BlueprintLog: New page: Compile dzialo
+[2024.02.20-16.24.59:705][309]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.02.20-16.25.27:750][501]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-16.25.27:750][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
